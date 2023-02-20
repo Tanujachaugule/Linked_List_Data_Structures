@@ -1,8 +1,9 @@
 package com.linkedlist;
 
-public class LinkedList {
+public class Linkedlist {
     Node head;
     static class Node {
+        public int data;
         int value;
         Node next;
         Node(int d) {
@@ -11,7 +12,7 @@ public class LinkedList {
         }
     }
     public static void main(String[] args) {
-        LinkedList linkedList = new LinkedList();
+        Linkedlist linkedList = new Linkedlist();
         linkedList.head = new Node(56);
         Node second = new Node(30);
         Node third = new Node(70);
